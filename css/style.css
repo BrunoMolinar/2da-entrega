@@ -1,0 +1,338 @@
+*{
+     /*Eliminamos espacios y margenes*/
+     margin: 0px;
+     padding: 0px;
+     /*Declaramos una tipografía para TODO*/
+     font-family: "Platypi", serif;
+ 
+     /*Declaramos un font-size base*/
+     font-size: 1em;
+}
+
+.grid-conteiner{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-columns: 0,5fr 1fr 1fr 0,5fr;
+     grid-template-areas:
+     "header header header"
+     "main main main"
+     "footer footer footer"
+     "footer footer footer"
+     ;
+}
+.grid-conteiner2{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+
+}
+   
+
+/*header*/
+/*Nav - estilos- BS*/
+
+.k--logo{
+     color: #d6a838;
+     font-size: 50px;
+}
+.bg-dark {
+     --bs-bg-opacity: 2;
+}
+.encabezado{
+     background-image: url('../assets/banner/florian-van-duyn-Dm-qxdynoEc-unsplash.jpg');
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     flex-flow: column-reverse;
+     grid-area: header;
+     
+}
+
+.encabezado img{
+     width: 20%;
+     padding: 0px;
+}
+
+
+.menu{
+     position: absolute;
+     right: 20px;
+     top: 200px;
+}
+.menu-list li a{
+     color: #ffffff;
+     text-decoration-line: none;
+     display: flex;
+     flex-flow: wrap;
+ }
+   
+
+/*main*/
+
+
+/*contenedor index*/
+.contenedor__bienvenidos__titulo{
+     text-align: center;
+}
+.container-md{
+     height: 70px;
+     margin: 0px 0px;
+}
+.contenedor{
+     background-image: url('../assets/fondos/sander-mathlener-SIZd5QF5a7M-unsplash.jpg');
+     display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    grid-area: main;
+   
+   
+}
+.destacados-titulo{
+     height: 20px;
+    width: 20px;
+    color: #ffffff;
+}
+.contenedor__bienvenidos{
+     color: #ffffff;
+     background-image: url('../assets/fondos/sander-mathlener-SIZd5QF5a7M-unsplash.jpg');
+    padding: 20px 20px;
+}
+.contenedor__bienvenidos__titulo--principal{
+     font-family: 'Courier New', Courier, monospace;
+     color: #faebd7;
+}
+
+/* contenedor Productos*/
+.contenedorproductos{
+     background-image: url('../assets/fondos/1a1.jpg');
+     background-size: cover;
+    background-position: left;
+     display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    grid-area: main;
+
+}
+.contenedorproductos h1{
+     color: #ffffff;
+}
+.contenedorproductos h2{
+     color: #ffffff;
+}
+.li-main{
+     color: #ffffff;
+}
+/*Contenedor hongos*/
+
+.contenedorhongos{
+     background-image: url('../assets/fondos/christopher-ott-qdcRECrSppU-unsplash.jpg');
+     background-size: cover;
+     background-position: top;
+     color: #ffffff;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     
+}
+
+.contenedorhongos__section{
+     display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 50px 10px 50px;
+}
+.contenedorhongos__section__titulo--2{
+     font-family: 'Courier New', Courier, monospace;
+     color: #faebd7;
+     font-size: 25px;
+}
+.contenedorhongos__section__titulo--3{
+     font-family: 'Courier New', Courier, monospace;
+     color: #faebd7;
+     font-size: 25px;
+}
+/*Contenedor preguntas*/
+.contenedorpreguntas{
+     color: #ffffff;
+     background-image: url('../assets/fondos/razvan-dumitrasconiu-6CqLJbfEPXQ-unsplash.jpg');
+     background-size: cover;
+     background-position: left;
+     text-align: center;
+     grid-area: header;
+
+}
+.bg-transparent
+
+.mainpreguntasfrecuentes{
+     
+     padding: 20px;
+     grid-area: main;
+}
+/*Contenedor guia*/
+.contenedorguia{
+     color: #ffffff;
+     background-image: url('../assets/fondos/kreeson-naraidoo-AsziZdN8s_o-unsplash.jpg');
+     text-align: center;
+     background-size: cover;
+     background-position: left;
+     padding: 20px;
+
+     }
+     .contenedorsectionguia{
+          height: 150px;
+
+     }
+       
+.contenedor-flex{
+     height: 700px;
+
+  
+}
+.error1{
+     font-size: 15px;
+}
+.card{ background-color: #8b949e;
+     width: 90%;
+     border-radius: 20px;
+     border: 3px inset #282828;
+     padding: 10px 10px 10px 10px;
+     margin: 10px 10px;
+    
+
+}
+
+.card-1{
+     background-color: #8b949e;
+     width: 90%;
+     border-radius: 20px;
+     border: 3px inset #282828;
+     padding: 10px 10px 10px 10px;
+     margin: 10px 10px;
+    
+
+}
+.card-2{
+     background-color: #8b949e;
+     width: 90%;
+     border-radius: 20px;
+     border: 3px inset #282828;
+     padding: 10px 10px 10px 10px;
+     margin: 10px 10px;
+     margin: 75px 10px;
+    
+}
+.card-3{
+     background-color: #8b949e;
+     width: 90%;
+     border-radius: 20px;
+     border: 3px inset #282828;
+     padding: 10px 10px 10px 10px;
+     margin: 10px 10px;
+     margin: 75px 10px;
+    
+}
+.card-4{
+     background-color: #8b949e;
+     width: 90%;
+     border-radius: 20px;
+     border: 3px inset #282828;
+     padding: 10px 10px 10px 10px;
+     margin: 10px 10px;
+     margin: 75px 10px;
+}
+.card-5{     background-color: #8b949e;
+     width: 90%;
+     border-radius: 20px;
+     border: 3px inset #282828;
+     padding: 10px 10px 10px 10px;
+     margin: 10px 10px;
+}
+.card-6{
+     background-color: #8b949e;
+     width: 90%;
+     border-radius: 20px;
+     border: 3px inset #282828;
+     padding: 10px 10px 10px 10px;
+     margin: 10px 10px;
+}   
+.card-7{
+     background-color: #8b949e;
+     width: 90%;
+     border-radius: 20px;
+     border: 3px inset #282828;
+     padding: 10px 10px 10px 10px;
+     margin: 10px 10px;
+} 
+.card-8{     background-color: #8b949e;
+     width: 90%;
+     border-radius: 20px;
+     border: 3px inset #282828;
+     padding: 10px 10px 10px 10px;
+     margin: 10px 10px;
+}
+.card-9{
+     background-color: #8b949e;
+     width: 90%;
+     border-radius: 20px;
+     border: 3px inset #282828;
+     padding: 10px 10px 10px 10px;
+     margin: 10px 10px;
+    
+}
+.card-10{
+     background-color: #8b949e;
+     width: 90%;
+     border-radius: 20px;
+     border: 3px inset #282828;
+     padding: 10px 10px 10px 10px;
+     margin: 10px 10px;
+    
+}
+
+.card button{
+     background-color:#93ad96 ;
+     border: 2px solid #191905;
+}
+
+
+.cont-img{
+    width: 400px;
+
+}
+.cont-img img{
+     width: 100%;
+    
+}
+
+
+/*footer*/
+.footerindex{
+     color: #ffffff;
+     background-image: url('../assets/fondos/sander-mathlener-SIZd5QF5a7M-unsplash.jpg');
+     padding: 10px;
+     grid-area: footer;
+}
+.footerproductos{
+     background-image: url('../assets/banner/florian-van-duyn-Dm-qxdynoEc-unsplash.jpg');
+     color: #ffffff;
+     background-size: cover;
+     background-position: top;
+}
+.footerhongos{
+     background-image: url('../assets/fondos/timothy-dykes-E1nV1tuJGs0-unsplash.jpg');
+     color: #ffffff;
+}
+.footerpreguntas{
+     color: #ffffff;
+     background-image: url('../assets/banner/florian-van-duyn-Dm-qxdynoEc-unsplash.jpg');
+     background-size: cover;
+     background-position: top;
+     padding: 20px;
+     grid-area: footer;
+}
+.footerguia{
+     background-image: url('../assets/banner/florian-van-duyn-Dm-qxdynoEc-unsplash.jpg');
+     color: #ffffff;
+     background-size: cover;
+     background-position: top;
+     padding: 20px;
+}
