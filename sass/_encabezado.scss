@@ -1,0 +1,37 @@
+/*header*/
+/*Nav - estilos- BS*/
+
+.k--logo{
+    color: $logo;
+    font-size: 50px;
+}
+.bg-dark {
+    --bs-bg-opacity: 2;
+}
+.encabezado{
+    background-image: url('../assets/banner/florian-van-duyn-Dm-qxdynoEc-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-flow: column-reverse;
+    grid-area: header;
+    
+}
+
+.encabezado img{
+    width: 20%;
+    padding: 0px;
+}
+
+
+.menu{
+    position: absolute;
+    right: 20px;
+    top: 200px;
+}
+.menu-list li a{
+    color: $blanco;
+    text-decoration-line: none;
+    display: flex;
+    flex-flow: wrap;
+}

@@ -1,0 +1,32 @@
+/*footer*/
+.footerindex{
+    color: $blanco;
+    background-image: url('../assets/fondos/sander-mathlener-SIZd5QF5a7M-unsplash.jpg');
+    padding: 10px;
+    grid-area: footer;
+}
+.footerproductos{
+    background-image: url('../assets/banner/florian-van-duyn-Dm-qxdynoEc-unsplash.jpg');
+    color: $blanco;
+    background-size: cover;
+    background-position: top;
+}
+.footerhongos{
+    background-image: url('../assets/fondos/timothy-dykes-E1nV1tuJGs0-unsplash.jpg');
+    color: $blanco;
+}
+.footerpreguntas{
+    color: $blanco;
+    background-image: url('../assets/banner/florian-van-duyn-Dm-qxdynoEc-unsplash.jpg');
+    background-size: cover;
+    background-position: top;
+    padding: 20px;
+    grid-area: footer;
+}
+.footerguia{
+    background-image: url('../assets/banner/florian-van-duyn-Dm-qxdynoEc-unsplash.jpg');
+    color: $blanco;
+    background-size: cover;
+    background-position: top;
+    padding: 20px;
+}

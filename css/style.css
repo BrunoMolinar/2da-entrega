@@ -96,7 +96,7 @@
      background-image: url('../assets/fondos/sander-mathlener-SIZd5QF5a7M-unsplash.jpg');
     padding: 20px 20px;
 }
-.contenedor__bienvenidos__titulo--principal{
+.contenedor__bienvenidos__tituloprincipal{
      font-family: 'Courier New', Courier, monospace;
      color: #faebd7;
 }
@@ -140,12 +140,12 @@
     margin: 0px 0px 0px 0px;
     padding: 0px 50px 10px 50px;
 }
-.contenedorhongos__section__titulo--2{
+.contenedorhongos__section__titulo2{
      font-family: 'Courier New', Courier, monospace;
      color: #faebd7;
      font-size: 25px;
 }
-.contenedorhongos__section__titulo--3{
+.contenedorhongos__section__titulo3{
      font-family: 'Courier New', Courier, monospace;
      color: #faebd7;
      font-size: 25px;
