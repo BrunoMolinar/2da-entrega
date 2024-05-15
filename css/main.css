@@ -1,4 +1,20 @@
 @charset "UTF-8";
+.titulo__principal {
+  font-size: 5rem;
+}
+
+.titulo__secundario {
+  font-size: 3rem;
+}
+
+.titulo__terciario {
+  font-size: 2.1rem;
+}
+
+.titulo__normal {
+  font-size: 1rem;
+}
+
 * {
   /*Eliminamos espacios y margenes*/
   margin: 0px;
@@ -7,6 +23,19 @@
   font-family: "Platypi", serif;
   /*Declaramos un font-size base*/
   font-size: 1rem;
+}
+
+/*grids*/
+.grid-conteiner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 0, 5fr 1fr 1fr 0, 5fr;
+  grid-template-areas: "header header header" "main main main" "footer footer footer" "footer footer footer";
+}
+
+.grid-conteiner2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 /*header*/
@@ -176,103 +205,100 @@
 .card {
   background-color: #8b949e;
   width: 90%;
-  border-radius: 20px;
-  border: 3px inset #282828;
   padding: 10px 10px 10px 10px;
   margin: 10px 10px;
+  border-radius: 20px;
+  border: 3px inset #282828;
 }
 
 .card-1 {
   background-color: #8b949e;
   width: 90%;
-  border-radius: 20px;
-  border: 3px inset #282828;
   padding: 10px 10px 10px 10px;
   margin: 10px 10px;
+  border-radius: 20px;
+  border: 3px inset #282828;
 }
 
 .card-2 {
   background-color: #8b949e;
   width: 90%;
-  border-radius: 20px;
-  border: 3px inset #282828;
   padding: 10px 10px 10px 10px;
   margin: 10px 10px;
-  margin: 75px 10px;
+  border-radius: 20px;
+  border: 3px inset #282828;
 }
 
 .card-3 {
   background-color: #8b949e;
   width: 90%;
-  border-radius: 20px;
-  border: 3px inset #282828;
   padding: 10px 10px 10px 10px;
   margin: 10px 10px;
-  margin: 75px 10px;
+  border-radius: 20px;
+  border: 3px inset #282828;
 }
 
 .card-4 {
   background-color: #8b949e;
   width: 90%;
-  border-radius: 20px;
-  border: 3px inset #282828;
   padding: 10px 10px 10px 10px;
   margin: 10px 10px;
-  margin: 75px 10px;
+  border-radius: 20px;
+  border: 3px inset #282828;
 }
 
 .card-5 {
   background-color: #8b949e;
   width: 90%;
-  border-radius: 20px;
-  border: 3px inset #282828;
   padding: 10px 10px 10px 10px;
   margin: 10px 10px;
+  border-radius: 20px;
+  border: 3px inset #282828;
 }
 
 .card-6 {
   background-color: #8b949e;
   width: 90%;
-  border-radius: 20px;
-  border: 3px inset #282828;
   padding: 10px 10px 10px 10px;
   margin: 10px 10px;
+  border-radius: 20px;
+  border: 3px inset #282828;
 }
 
 .card-7 {
   background-color: #8b949e;
   width: 90%;
-  border-radius: 20px;
-  border: 3px inset #282828;
   padding: 10px 10px 10px 10px;
   margin: 10px 10px;
+  border-radius: 20px;
+  border: 3px inset #282828;
 }
 
 .card-8 {
   background-color: #8b949e;
   width: 90%;
-  border-radius: 20px;
-  border: 3px inset #282828;
   padding: 10px 10px 10px 10px;
   margin: 10px 10px;
+  border-radius: 20px;
+  border: 3px inset #282828;
 }
 
 .card-9 {
   background-color: #8b949e;
   width: 90%;
-  border-radius: 20px;
-  border: 3px inset #282828;
   padding: 10px 10px 10px 10px;
   margin: 10px 10px;
+  border-radius: 20px;
+  border: 3px inset #282828;
 }
 
 .card-10 {
   background-color: #8b949e;
   width: 90%;
-  border-radius: 20px;
-  border: 3px inset #282828;
   padding: 10px 10px 10px 10px;
   margin: 10px 10px;
+  border-radius: 20px;
+  border: 3px inset #282828;
 }
 
 .card button {

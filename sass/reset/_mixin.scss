@@ -1,0 +1,26 @@
+//SIN PARAMETROS
+// Declaro el mixin @mixin + "nombre"
+// Para usarlo debo llamarlo con un @include "nombre"
+
+@mixin width-boderadi-border-pad-marg{
+    width: 90%;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px;
+    border-radius: 20px;
+}
+@mixin disp-flex-just{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center; 
+    } 
+    
+
+//CON PARAMETROS
+// ejemplo: 
+// @mixin spcio ($p, $m, $w, $h) {
+    //padding: $p
+    //margin: $m
+    //width: $w
+    //height: &h
+    //}
+    

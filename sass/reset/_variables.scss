@@ -15,6 +15,17 @@ $fondos-botones: #93ad96;
 $borde-botones: #191905;
 $logo: #d6a838;
 
-//Tamaños img
+//mapa
+$titulos:(
+    principal: 5rem, 
+    secundario: 3rem,
+    terciario: 2.1rem,
+    normal: 1rem,
+);
 
+@each $llave, $valor in $titulos{
+    .titulo__#{$llave}{
+        font-size: $valor;
+    }
+}
 
