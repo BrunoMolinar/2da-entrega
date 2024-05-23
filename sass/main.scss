@@ -1,0 +1,16 @@
+
+//reset
+@import './reset/variables';
+@import './reset/mixin';
+@import './reset/configuracion';
+
+
+//header
+@import 'encabezado';
+
+//main
+@import 'principal';
+
+//footer
+@import 'pie';
+

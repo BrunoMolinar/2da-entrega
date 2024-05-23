@@ -1,0 +1,244 @@
+
+/*main*/
+
+/*contenedor index*/
+.contenedor__bienvenidos__titulo{
+    text-align: center;
+}
+.container-md{
+    height: 70px;
+    margin: 0px 0px;
+}
+.contenedor{
+    background-image: url('../assets/fondos/sander-mathlener-SIZd5QF5a7M-unsplash.jpg');
+   @include disp-flex-just;
+   grid-area: main;
+  
+  
+}
+.destacados-titulo{
+    height: 20px;
+   width: 20px;
+   color: $blanco;
+}
+.contenedor__bienvenidos{
+    color: $blanco;
+    background-image: url('../assets/fondos/sander-mathlener-SIZd5QF5a7M-unsplash.jpg');
+   padding: 20px 20px;
+}
+.contenedor__bienvenidos__tituloprincipal{
+    font-family: 'Courier New', Courier, monospace;
+    color: $simil-blanco;
+}
+
+/* contenedor Productos*/
+.contenedorproductos{
+    background-image: url('../assets/fondos/1a1.jpg');
+    background-size: cover;
+   background-position: left;
+   @include disp-flex-just;
+   grid-area: main;
+
+}
+.contenedorproductos h1{
+    color: $blanco;
+}
+.contenedorproductos h2{
+    color: $blanco;
+}
+.li-main{
+    color: $blanco;
+}
+/*Contenedor hongos*/
+
+.contenedorhongos{
+    background-image: url('../assets/fondos/christopher-ott-qdcRECrSppU-unsplash.jpg');
+    background-size: cover;
+    background-position: top;
+    color: $blanco;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.contenedorhongos__section{
+   @include disp-flex-just;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 50px 10px 50px;
+}
+.contenedorhongos__section__titulo2{
+    font-family: 'Courier New', Courier, monospace;
+    color: $simil-blanco;
+    font-size: 25px;
+}
+.contenedorhongos__section__titulo3{
+    font-family: 'Courier New', Courier, monospace;
+    color: $simil-blanco;
+    font-size: 25px;
+}
+/*Contenedor preguntas*/
+.contenedorpreguntas{
+    color: $blanco;
+    background-image: url('../assets/fondos/razvan-dumitrasconiu-6CqLJbfEPXQ-unsplash.jpg');
+    background-size: cover;
+    background-position: left;
+    text-align: center;
+    grid-area: header;
+
+}
+.bg-transparent
+
+.mainpreguntasfrecuentes{
+    
+    padding: 20px;
+    grid-area: main;
+}
+/*Contenedor guia*/
+.contenedorguia{
+    color: $blanco;
+    background-image: url('../assets/fondos/kreeson-naraidoo-AsziZdN8s_o-unsplash.jpg');
+    text-align: center;
+    background-size: cover;
+    background-position: left;
+    padding: 20px;
+
+    }
+    .contenedorsectionguia{
+         height: 150px;
+
+    }
+      
+.contenedor-flex{
+    height: 700px;
+
+ 
+}
+.error1{
+    font-size: 15px;
+}
+.card{ 
+    background-color: $fondos-productos;
+  @include width-boderadi-border-pad-marg;
+  border: 3px 
+    inset $borde-productos;
+
+}
+
+.card-1{
+    background-color: $fondos-productos;
+  @include width-boderadi-border-pad-marg;
+    border: 3px 
+    inset $borde-productos; 
+
+}
+.card-2{
+    background-color: $fondos-productos;
+    @include width-boderadi-border-pad-marg;
+    border: 3px 
+    inset $borde-productos;
+
+}
+.card-3{
+    background-color: $fondos-productos;
+    @include width-boderadi-border-pad-marg;
+    border: 3px 
+    inset $borde-productos;
+    
+}
+.card-4{
+    background-color: $fondos-productos;
+    @include width-boderadi-border-pad-marg;
+    border: 3px 
+    inset $borde-productos;
+}
+.card-5{     
+    background-color: $fondos-productos;
+    @include width-boderadi-border-pad-marg;
+    border: 3px 
+    inset $borde-productos;
+}
+.card-6{
+    background-color: $fondos-productos;
+    @include width-boderadi-border-pad-marg;
+    border: 3px 
+    inset $borde-productos;
+
+}   
+.card-7{
+    background-color: $fondos-productos;
+    @include width-boderadi-border-pad-marg;
+    border: 3px 
+    inset $borde-productos;
+ 
+} 
+.card-8{    
+    background-color: $fondos-productos;
+    @include width-boderadi-border-pad-marg;
+    border: 3px 
+    inset $borde-productos;
+}
+.card-9{
+    background-color: $fondos-productos;
+    @include width-boderadi-border-pad-marg;
+    border: 3px 
+    inset $borde-productos;
+}
+.card-10{
+    background-color: $fondos-productos;
+    @include width-boderadi-border-pad-marg;
+    border: 3px 
+    inset $borde-productos;
+   
+}
+
+.card button{
+    background-color:$fondos-botones ;
+    border: 2px solid $borde-botones;
+}
+
+
+.cont-img{
+   width: 400px;
+
+}
+.cont-img img{
+    width: 100%;
+   
+}
+
+
+_pie.scss:
+
+/*footer*/
+.footerindex{
+    color: $blanco;
+    background-image: url('../assets/fondos/sander-mathlener-SIZd5QF5a7M-unsplash.jpg');
+    padding: 10px;
+    grid-area: footer;
+}
+.footerproductos{
+    background-image: url('../assets/banner/florian-van-duyn-Dm-qxdynoEc-unsplash.jpg');
+    color: $blanco;
+    background-size: cover;
+    background-position: top;
+}
+.footerhongos{
+    background-image: url('../assets/fondos/timothy-dykes-E1nV1tuJGs0-unsplash.jpg');
+    color: $blanco;
+}
+.footerpreguntas{
+    color: $blanco;
+    background-image: url('../assets/banner/florian-van-duyn-Dm-qxdynoEc-unsplash.jpg');
+    background-size: cover;
+    background-position: top;
+    padding: 20px;
+    grid-area: footer;
+}
+.footerguia{
+    background-image: url('../assets/banner/florian-van-duyn-Dm-qxdynoEc-unsplash.jpg');
+    color: $blanco;
+    background-size: cover;
+    background-position: top;
+    padding: 20px;
+}
+

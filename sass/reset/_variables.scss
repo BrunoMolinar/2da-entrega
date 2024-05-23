@@ -1,0 +1,30 @@
+// Variables 
+// Contenedor que tiene un nombre y que voy a poder "invocar" cuando lo necesite
+
+//Titulos
+
+$titulo-principal: "Platypi", serif;
+
+//Colores
+
+$blanco: #ffffff;
+$simil-blanco: #faebd7;
+$fondos-productos: #8b949e;
+$borde-productos: #282828;
+$fondos-botones: #93ad96;
+$borde-botones: #191905;
+$logo: #d6a838;
+
+//mapa
+$titulos:(
+    principal: 5rem, 
+    secundario: 3rem,
+    terciario: 2.1rem,
+    normal: 1rem,
+);
+
+@each $llave, $valor in $titulos{
+    .titulo__#{$llave}{
+        font-size: $valor;
+    }
+}
